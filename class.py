@@ -7,7 +7,7 @@ import time
 import json
 from selenium.webdriver.common.action_chains import ActionChains
 
-with open(r"C:\Users\廖峻德\Desktop\自動爬蟲\自動上課\class.json",'r',encoding='utf8') as jfies:
+with open(r"C:\Users\廖峻德\Desktop\自動爬蟲\自動上課\automatic-class\class.json",'r',encoding='utf8') as jfies:
     jdata = json.load(jfies)
 while 7==7:
     idc = input("請輸入課程名稱:")
